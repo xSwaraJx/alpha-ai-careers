@@ -1,16 +1,21 @@
-# React + Vite
+# Alpha.AI Careers
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A demo careers website for a fictional company, Alpha.AI, styled after JPMorgan's careers page: classy, corporate, navy/white/gold, with scroll-driven motion throughout.
 
-Currently, two official plugins are available:
+**Live demo:** https://alpha-ai-careers.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+React + Vite + Tailwind CSS v4 + React Router + Framer Motion. Fully static frontend demo — no backend, no database, no real form submissions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Development
 
-## Expanding the Oxlint configuration
+```bash
+npm install
+npm run dev       # http://localhost:5173
+npm run build     # production build
+npm run preview   # preview the production build locally
+npm run lint      # oxlint
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+See [CLAUDE.md](./CLAUDE.md) for architecture notes.
